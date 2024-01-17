@@ -1,0 +1,25 @@
+#home-page h2 {
+  margin-top: 10%;
+  padding-left: 20%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 7s steps(40, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#home-page p {
+  padding-left: 20%;
+  color: grey;
+}
+
+#home-page h2 span {
+  color: #5c5470;
+}

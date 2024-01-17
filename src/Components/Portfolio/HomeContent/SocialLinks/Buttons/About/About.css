@@ -1,0 +1,29 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 12%;
+}
+
+/* Header styling */
+.about-header {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-header {
+  transition: transform 0.3s ease; /* Apply transition to the transform property */
+}
+
+.about-header:hover {
+  transform: scale(1.1); /* Scale the text on hover */
+}
+
+/* Paragraph styling */
+.about-paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 10px;
+}

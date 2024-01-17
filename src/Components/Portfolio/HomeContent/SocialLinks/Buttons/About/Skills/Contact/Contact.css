@@ -1,0 +1,70 @@
+/* src/components/Contact.css */
+
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4; /* Background color for the contact section */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white; /* Background color for the form container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c6fa3;
+}
+
+button {
+  background-color: #fff;
+  color: #3498db;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #3498db;
+  color: white;
+  border-color: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); /* Glow effect on hover */
+}

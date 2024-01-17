@@ -1,0 +1,48 @@
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: #fff;
+  scroll-behavior: smooth;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+}
+
+.title {
+  font-size: 20px;
+}
+
+.menu {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+li:hover {
+  border-bottom: 2px solid rgb(209, 209, 209);
+}
+
+/* TextAnimation.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-text {
+  animation: fadeIn 1s ease;
+}

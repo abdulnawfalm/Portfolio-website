@@ -1,0 +1,36 @@
+.buttons {
+  padding-left: 19%;
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 12px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resume {
+  background-color: #dfdfdf;
+  color: #000;
+  border: 2px solid #959595;
+}
+
+.resume:hover {
+  background-color: #bfbfbf;
+  color: #000;
+}
+
+.view-portfolio {
+  background-color: #dfdfdf;
+  color: #000;
+  border: 2px solid #959595;
+}
+
+.view-portfolio:hover {
+  background-color: #bfbfbf;
+  color: #000;
+}
